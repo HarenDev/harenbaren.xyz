@@ -1,2 +1,2 @@
 # HarenBaren.github.io
-website repo
+also should be accessible from harenbaren.xyz
