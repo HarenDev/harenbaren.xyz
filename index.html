@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/test.css">
+        <link rel="stylesheet" href="https://unpkg.com/xp.css">
     </head>
 
-    <body>
-    <h1>Work in Progress</h1>
-    <p>Hello random person.</p>
+    <div class="navbar">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#" class="right">Link</a>
+    </div>
 
-    <div id="app"></div>
-    <script src="https://unpkg.com/webamp"></script>
-    <script>
-        const app = document.getElementById("app")
-        const webamp = new Webamp();
-        webamp.renderWhenReady(app);
-    </script>
+    <body>
+        <h1>Work in Progress</h1>
+        <p>Hello random person.</p>
+
+        <div id="app"></div>
+        <script src="https://unpkg.com/webamp"></script>
+        <script>
+            const app = document.getElementById("app");
+            const webamp = new Webamp();
+            webamp.renderWhenReady(app);
+        </script>
 
     </body>
 </html>
