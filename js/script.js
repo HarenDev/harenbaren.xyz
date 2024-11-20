@@ -1,0 +1,1 @@
+document.getElementById("title-bar-text").innerText = window.location.href;
