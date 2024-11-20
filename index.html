@@ -15,7 +15,7 @@
 
             <!-- <button id="toggleWebamp">Show Webamp</button> -->
 
-            <div class="window">
+            <div class="window" id="main-window">
                 <div class="title-bar">
                     <div class="title-bar-text" id="title-bar-text"></div>
                 </div>
@@ -24,17 +24,21 @@
                     <p>Work in Progress</p>
                 </div>
             </div>
+
+            <div class="window" id="profile-picture">
+                <div class="title-bar">
+                    <div class="title-bar-text">Me :3</div>
+                </div>
+                <div class="window-body">
+                    <img src="images/image.png">
+                </div>
+            </div>
             
             <div id="webamp" style="display: none"></div>
 
         </main>
-
-        <script>
-            document.getElementById("title-bar-text").innerText = window.location.href;
-        </script>
-        
-        <script src="https://unpkg.com/webamp"></script>
-        <script src="js/myWebamp.js"></script>
-
     </body>
+    <script src="https://unpkg.com/webamp"></script>
+    <script src="js/webamp.js"></script>
+    <script src="js/script.js"></script>
 </html>
