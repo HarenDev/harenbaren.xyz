@@ -4,10 +4,10 @@ body {
 
 .window {
     position: relative;
-    top: 175px;
+    top: 150px;
     left: 300px;
-    width: 875px;
-    height: 535px;
+    width: 60vw;
+    height: 70vh;
 
 }
 
