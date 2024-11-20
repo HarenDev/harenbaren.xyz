@@ -17,6 +17,10 @@ body {
     left: 30px;
 }
 
+#pfp-link{
+    color:pink;
+}
+
 h1 {
     color: black;
 }
