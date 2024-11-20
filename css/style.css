@@ -2,13 +2,23 @@ body {
     background-color: #00807F;
 }
 
-.window {
+#main-window {
     position: relative;
     top: 10vw;
     left: 20vw;
     width: 875px;
     height: 535px;
 
+}
+
+#profile-picture{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+}
+
+#pfp-link{
+    color:pink;
 }
 
 h1 {
