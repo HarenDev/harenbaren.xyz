@@ -16,13 +16,17 @@
      -->
         <div class="window">
             <div class="title-bar">
-              <div class="title-bar-text">HarenBaren.xyz</div>
+              <div class="title-bar-text" id="title-bar-text"></div>
             </div>
             <div class="window-body">
               <h1>HarenBaren</h1>
               <p>Work in Progress</p>
             </div>
         </div>
+
+        <script>
+            document.getElementById("title-bar-text").innerText = window.location.href;
+        </script>
 
         <div id="webamp" style="display: none"></div>
         <script src="https://unpkg.com/webamp"></script>
