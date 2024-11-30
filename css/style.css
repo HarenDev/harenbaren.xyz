@@ -1,4 +1,12 @@
-body {
+#landing-body {
+    background-color: #00807F;
+}
+
+#doilous-body {
+    background-color: black;
+}
+
+#sound-test-body {
     background-color: #00807F;
 }
 
