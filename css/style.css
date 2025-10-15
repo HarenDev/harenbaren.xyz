@@ -11,7 +11,7 @@
 }
 
 #landing-window {
-    position: relative;
+    position: absolute;
     top: 10vw;
     left: 20vw;
     width: 875px;
